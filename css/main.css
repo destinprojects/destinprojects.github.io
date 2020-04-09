@@ -115,6 +115,18 @@ textarea {
 	   float: left;
    }
    
+   a#hireButton {
+   	border-radius: 4px;
+   	padding: 0.6em 1em;
+   	margin: 1.4em 0;
+   	display: block;
+   	text-decoration: none;
+   	background: #DB5382;
+   	color: #ffffff;
+   	font-weight: bold;
+   	border-bottom: 5px solid #B4446B;
+   }
+
    a.download-btn {
 	   padding: 0.6em 1em;
 	   display: block;
