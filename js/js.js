@@ -1,40 +1,13 @@
-$(document).ready(function($) {
-    
+$(document).ready(function() {
+	
+	$('#fullpage').fullpage({
+		//options here
+		autoScrolling:true,
+		scrollHorizontally: true,
+		anchors: ['page1', 'page2', 'page3', 'page4'],
+		menu: '#nav-menu'
+	});
 
-    $('#tabs').tabulous({
-    	effect: 'scale'
-    });
-
-     $('#tabs2').tabulous({
-    	effect: 'slideLeft'
-    });
-
-     $('#tabs3').tabulous({
-    	effect: 'scaleUp'
-    });
-
-    $('#tabs4').tabulous({
-    	effect: 'flip'
-    });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
 });
